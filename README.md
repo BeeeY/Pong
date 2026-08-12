@@ -15,3 +15,5 @@ Controls:
 Player 1 / Red : w for up & s for down
 
 Player 2 / Blue : arrow keys up and down
+
+Installing: Download godot and flappy duck folder, use import button in godot, and select the flappy duck folder.
