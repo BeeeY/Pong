@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://jkj7hux57uik"]
+
+[ext_resource type="Script" uid="uid://dtutm6cfrstwt" path="res://player_1.gd" id="1_bxx23"]
+[ext_resource type="Texture2D" uid="uid://blcs2v4ig2bia" path="res://assets/PaddleRed.png" id="1_squ5q"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_glgfw"]
+size = Vector2(10, 50)
+
+[node name="Player1" type="CharacterBody2D" unique_id=299436744]
+script = ExtResource("1_bxx23")
+metadata/_edit_group_ = true
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1130531020]
+texture = ExtResource("1_squ5q")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=662031831]
+shape = SubResource("RectangleShape2D_glgfw")
